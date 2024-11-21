@@ -44,7 +44,7 @@ public class Vista {
         }
 
         //eliminar
-        name = JOptionPane.showInputDialog("Digite nombre de la tienda que desea eliminar");
+        name = JOptionPane.showInputDialog("Digite nombre de la tienda que desea elimina");
         boolean msgDelete = controlador.eliminarTienda(name);
         if (msgDelete){
             JOptionPane.showMessageDialog(null, "Eliminación existosa");
