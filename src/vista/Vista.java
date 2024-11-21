@@ -40,11 +40,11 @@ public class Vista {
         if (msg){
             JOptionPane.showMessageDialog(null, "Actualización existosa");
         }else{
-            JOptionPane.showMessageDialog(null,"Error en la Actualización");
+            JOptionPane.showMessageDialog(null,"Error");
         }
 
         //eliminar
-        name = JOptionPane.showInputDialog("Digite nombre de la tienda que desea elimina");
+        name = JOptionPane.showInputDialog("Digite nombre de la tienda que desea eliminar");
         boolean msgDelete = controlador.eliminarTienda(name);
         if (msgDelete){
             JOptionPane.showMessageDialog(null, "Eliminación existosa");
